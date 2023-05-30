@@ -1,2 +1,3 @@
 # bilibiliWordCloud
 bilibili词云
+1.请修改bilibiliCloud.py文件内的dir为你想要将生成的文件存到本地的路径

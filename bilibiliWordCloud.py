@@ -54,7 +54,7 @@ def get_cid_list(bvid, mid):
 
 
 def get_barrage(cid_list, result_list):
-    stop_words = getFiletxt('/home/stop_words.txt')
+    stop_words = getFiletxt('./stop_words.txt')
     for cid in cid_list:
         req = requests.get('https://comment.bilibili.com/' + str(cid) + '.xml')
         req.encoding = req.apparent_encoding
